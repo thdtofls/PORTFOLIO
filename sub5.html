@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html long="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>카페배네</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+<link rel="stylesheet" type="text/css"href="css/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/sub5.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+    
+    
+
+    
+    
+<script type="text/javascript">
+    $(document).ready(function() {
+			$('#fullpage').fullpage({
+                anchors:['page01', 'page02','page03','page04','page05'],
+                navigation: true,
+                navigationPosition:'right',
+			});            
+		});
+</script>
+</head>
+     <body>
+        <div id="wrap">
+             <div id="fullpage">
+                <div class="section" id="section0">
+                    <h1>PORTFOLIO</h1>
+                    <div class="inner">
+                        <div class="Box">
+                            <div class="box1">
+                                <p> 
+                                    &lsaquo;카페배네 웹퍼블리싱&rsaquo;
+                                </p>
+                                <a href="https://thdtofls.github.io/zkvpqpspdnpq/">
+                                    <img src="images/zkvpqosp.png" alt="카페배네"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Box1">
+                            <ul>
+                               <li>
+                                    <a href="index.html#page04">
+                                    목록
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="sub6.html">
+                                    다음
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w100p">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                         <img src="images/cl_bg_03.png" alt="엑스"/>
+                         </a>
+                        <a href="index.html#page02" onclick="closeNav()">ABOUT ME</a>
+                        <a href="index.html#page03" onclick="closeNav()">SKLL</a>
+                        <a href="index.html#page04" onclick="closeNav()">PORTFOLIO</a>
+                        <a href="index.html#page05" onclick="closeNav()">GALLERY</a>
+                         <ul class="menuSns">
+                             <li>
+                                 <a href="https://www.facebook.com/profile.php?id=100003701199304">
+                                    <img src="images/facebook.png" alt="페이스북"/>
+                                 </a>
+                            </li>
+                             <li>
+                                 <a href="https://www.instagram.com/07.0.1/">
+                                    <img src="images/inster.png" alt="인스타그램"/>
+                                 </a>
+                            </li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="w100pM">
+                    <div id="mySidenavM" class="sidenavM">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNavM()">
+                         <img src="images/cl_bg_03.png" alt="엑스"/>
+                         </a>
+                        <a href="index.html#page02" onclick="closeNavM()">ABOUT ME</a>
+                        <a href="index.html#page03" onclick="closeNavM()">SKLL</a>
+                        <a href="index.html#page04" onclick="closeNavM()">PORTFOLIO</a>
+                        <a href="index.html#page05" onclick="closeNavM()">GALLERY</a>
+                         <ul class="menuSns">
+                             <li>
+                                 <a href="https://www.facebook.com/profile.php?id=100003701199304">
+                                    <img src="images/facebook.png" alt="페이스북"/>
+                                 </a>
+                            </li>
+                             <li>
+                                 <a href="https://www.instagram.com/07.0.1/">
+                                    <img src="images/inster.png" alt="인스타그램"/>
+                                 </a>
+                            </li>
+                         </ul>
+                    </div>
+                </div>
+            <div class="headerBg">
+            <header id="header">
+                    <div class="headerTop inner">
+                        <h1>
+                            <a href="index.html">
+                                <img src="images/iong.png" alt="로고"/>
+                            </a>
+                        </h1>
+                        <div class="panel">
+                            <a href="#" onclick="openNav()">
+                                <img src="images/menu.png" alt="메뉴아이콘"/>
+                            </a>
+                        </div>
+                        <div class="panelM">
+                            <a href="#" onclick="openNavM()">
+                                <img src="images/menu.png" alt="메뉴아이콘"/>
+                            </a>
+                        </div>
+                    </div>
+            </header>
+         </div>
+              <footer id="footer">
+                     <div class="footerIn">
+                         <div class="inner">
+                            <div class="left">
+                                <div class="icon">
+                                    <img src="images/call.png" alt="전화아이콘"/>
+                                </div>
+                                <p>&#43;82&#46;10&#46;8302&#46;0117</p>
+                            </div>
+                              <div class="right">
+                                <div class="icon">
+                                  <img src="images/emll.png" alt="이메일아이콘"/>
+                                </div>
+                                <p>toflsqkd&#64;naver&#46;com</p>
+                            </div>
+                             <p>Copyright &copy; SONGSEALIN &#46; 2018 All rights reserved </p>
+                             <div class="topbtn">
+                                 <a href="#page01">
+                                    <img src="images/top_icon.png" alt="탑버튼"/>
+                                 </a>
+                             </div>
+                        </div>
+                    </div>
+                 </footer>
+        </div>
+         <script type="text/javascript">
+        var mql = window.matchMedia("screen and (max-width: 768px)");
+
+        if (mql.matches) {
+            function openNavM() {
+                document.getElementById("mySidenavM").style.width = "100%";
+            }
+
+            function closeNavM() {
+                document.getElementById("mySidenavM").style.width = "0";
+            }
+            
+        } else {
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "1200px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            };
+        }
+        </script>
+         
+    </body>
+</html>

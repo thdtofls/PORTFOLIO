@@ -1,0 +1,1768 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+@charset"uft-8";
+.sidenav {
+    height: calc(100% - 100px);
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 50%;
+    margin-right:-600px;
+    background:url(../images/menu_bg.png);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    width: 1200px;
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 80px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    text-align:center;
+    font-family:'Nanum Myeongjo';
+    font-weight:bold;
+}
+.menuSns li{
+    display:inline-block;
+    margin:0 5px;
+}
+.menuSns li a img{
+    width: 60px;
+    height: 60px;
+}
+.menuSns a{
+    width:auto;
+    padding:0;
+    display:inline-block;
+}
+
+.sidenav .menuSns{
+    width: 1200px;
+    text-align:center;
+    font-size:0;
+}
+
+
+.sidenav a:hover {
+    color: #66e0b0;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+}
+.sidenav .closebtn img{
+    width: 40px;
+    height: 40px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+body{
+   
+    font-family: 'Noto sans KR','Nanum Myeongjo', 'NanumBarunpen',sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#wrap{
+    width: 100%;
+}
+#header{
+    display: block;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+.headerBg
+.headerTop{
+    position: relative;
+    height: 50px;
+}
+.headerTop h1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.headerTop h1 img{
+    width: 50px;
+    height: 50px;
+}
+.headerTop .panel{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+.headerTop .panel a{
+    display: block;
+    height: 40px;
+}
+.headerTop .panel a img{
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+}
+
+
+
+#section0{
+    font-family:'Nanum Myeongjo';
+    font-size:130px;
+    font-weight:bold;
+    text-align:center;
+    color: #fff;
+    background:url(../images/mainImg.png)no-repeat;
+}
+.mainText{}
+
+#section1{
+   
+    background: url(../images/section1Bg.png) no-repeat;
+    background-size:cover;
+}
+#section1 h1{
+    text-align: center;
+    color: #66e0b0;
+    font-size: 50px;
+    font-family:'Nanum Myeongjo';
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+#section1 .box1{
+    
+    width:50%;
+    margin-bottom: 200px;
+    text-align: right;
+    
+}
+#section1 .box1 img{
+    width: 130px;
+    height: 250px;
+}
+#section1 .box1 p{
+    font-family: 'NanumBarunpen';
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+#section1 .box1 p em{
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+#section1 .box2{}
+#section1 .box2 p{
+    width: 50%;
+     text-align: right;
+    font-size: 30px;
+}
+#section1 .box2 p em{
+    font-style: normal;
+}
+#section1 .box2 p span{
+   font-family: 'NanumBarunpen';
+    font-size: 40px;
+    font-weight:bold;
+}
+
+    
+            
+#section2{
+    
+}
+#section2 h1{
+    text-align: center;
+    color: #66e0b0;
+    font-size: 50px;
+    font-family:'Nanum Myeongjo';
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+#section2 h2{}
+#section2 .box1{
+    height: 290px;
+}
+#section2 .box1 img{
+    width: 1200px;
+    height: 290px;
+}
+#section2 .fix{
+    position: relative;
+}
+#section2 .box2{
+    background: #b2dfd0;
+}
+#section2 .box2_1{
+    display: inline-block;
+    width:calc(50% - 200px);
+    margin-left: 200px;
+    padding: 25px 0;
+}
+#section2 .box2_1 .box2_1_1{
+
+    
+}
+#section2 .box2_1 img{
+    display: inline-block;
+    margin: 20px 0;
+    width: 50px;
+}
+#section2 .box2_1 .box2_1_1 .bar{
+    width:200px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin-top:35px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-left: -5px;
+}
+#section2 .box2_1 .box2_1_2 .bar{
+    width:200px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin-top:35px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-left: -5px;
+}
+#section2 .box2_1 .box2_1_3 .bar{
+    width:200px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin-top:35px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-left: -5px;
+}
+#section2 .box2_1 .box2_1_1 .bar .colorBar{
+    width:140px;
+    background: #fff;
+    height: 100%;
+}
+#section2 .box2_1 .box2_1_2 .bar .colorBar{
+    width:140px;
+    background: #fff;
+    height: 100%;
+}
+#section2 .box2_1 .box2_1_3 .bar .colorBar{
+    width:120px;
+    background: #fff;
+    height: 100%;
+}
+
+#section2 .box2_1 .box2_1_1 .bar .colorBar{}
+#section2 .box2_1 .bar p{
+    position: absolute;
+    top:-2px;
+    right:5px;
+}
+
+
+#section2 .box2_2{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+#section2 .box2_2 h2{
+    font-family: 'nanumbarunpenb';
+    font-size: 35px;
+    font-weight:bold;
+    padding: 15px 0;
+}
+#section2 .box2_2 .key{
+    text-align: center;
+    background: #fff;
+    width: 260px;
+    margin: 0 auto;
+    
+}
+
+#section2 .box2_2 .key p{
+   font-family: 'nanumbarunpenr';
+   font-size: 20px; 
+   padding: 10px 0;
+}
+#section2 .box2_2 .key p.text1{
+    text-align: left;
+    margin-left: 20px;
+    position: absolute;
+}
+#section2 .box2_2 .key p.text2{
+    text-align: right;
+    margin-right: 20px;
+}
+#section2 .box2_2 .key p.text3{}
+#section2 .box2_2 .key p.text4{
+    text-align: left;
+    margin-left: 30px;
+    position: absolute;
+}
+#section2 .box2_2 .key p.text5{
+    text-align: right;
+    margin-right: 40px;
+}
+#section2 .box2_2 .key p.text6{
+    text-align: right;
+    margin-right: 20px;
+}
+#section2 .box2_2 .key p.text7{
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+
+
+
+#section3{
+    background: url(../images/portflio_img.png)no-repeat;
+    background-size: 100%;
+}
+#section3 h1{
+    text-align: center;
+    color: #66e0b0;
+    font-size: 50px;
+    font-family:'Nanum Myeongjo';
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+#section3 .port{
+    text-align: center;
+    width: 510px;
+    transform: rotate(-45deg);
+    padding-left: 170px;
+}
+#section3 .port .port1_1{
+    width: 510px;
+}
+
+.port1_1 .po1{
+    background: #aef5f1;
+    width: 170px;
+    height: 170px;
+    float: left;
+}
+.port1_1 .po1 .lio{}
+.port1_1 .po1 .lio a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+.port1_1 .po1 .lio a img{
+    padding: 15px 0;
+    width: 130px;
+    height: 140px;
+   
+}
+.port1_1 .po1 .lio a:hover p{
+    display: block;
+}
+.port1_1 .po1 .lio a .poBg{
+    width: 140px;
+    height: 140px;
+    background: url(../images/slid.png)no-repeat;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+}
+.port1_1 .po1 .lio a:hover .poBg{
+    display:block;
+}
+.port1_1 .po1 .lio a p{
+    margin: 40px;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.port1_1 .po2{
+    background: #58e1b3;
+    width: 170px;
+    height: 170px;
+    float: left;
+}
+.port1_1 .po2 .lio{}
+.port1_1 .po2 .lio a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+.port1_1 .po2 .lio a:hover p{
+    display: block;
+}
+.port1_1 .po2 .lio a .poBg{
+    width: 140px;
+    height: 140px;
+    background: url(../images/slid.png)no-repeat;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+}
+.port1_1 .po2 .lio a:hover .poBg{
+    display:block;
+}
+.port1_1 .po2 .lio a p{
+    margin: 40px;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.port1_1 .po2 .lio a img{
+    padding: 15px 0;
+     width: 130px;
+    height: 140px;
+}
+
+
+#section3 .port .port1_2{
+    width: 510px;
+}
+.port1_2 .po3{
+    background: #ace6f5;
+    width: 170px;
+    height: 170px;
+    float: left;
+}
+.port1_2 .po3 .lio{}
+.port1_2 .po3 .lio a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+.port1_2 .po3 .lio a:hover p{
+    display: block;
+}
+.port1_2 .po3 .lio a .poBg{
+    width: 140px;
+    height: 140px;
+    background: url(../images/slid.png)no-repeat;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+}
+.port1_2 .po3 .lio a:hover .poBg{
+    display:block;
+}
+.port1_2 .po3 .lio a p{
+    margin: 40px;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.port1_2 .po3 .lio a img{
+    padding: 15px 0;
+     width: 120px;
+    height: 140px;
+}
+
+
+
+.port1_2 .po3 .lio a:hover p{
+    display: block;
+}
+
+
+
+
+
+
+.port1_2 .po4{
+    background: #f9f6a2;
+    width: 170px;
+    height: 170px;
+    float: left;
+}
+.port1_2 .po4 .lio{}
+.port1_2 .po4 .lio a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+.port1_2 .po4 .lio a:hover p{
+    display: block;
+}
+.port1_2 .po4 .lio a .poBg{
+    width: 140px;
+    height: 140px;
+    background: url(../images/slid.png)no-repeat;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+}
+.port1_2 .po4 .lio a:hover .poBg{
+    display:block;
+}
+.port1_2 .po4 .lio a p{
+    margin: 40px;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.port1_2 .po4 .lio a img{
+    padding: 15px 0;
+     width: 120px;
+    height: 140px;
+}
+
+.port1_2 .po5{
+   background: #dcb2df;
+    width: 170px;
+    height: 170px;
+    float: left;
+}
+.port1_2 .po5 .lio{}
+.port1_2 .po5 .lio a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+.port1_2 .po5 .lio a:hover p{
+    display: block;
+}
+.port1_2 .po5 .lio a .poBg{
+    width: 140px;
+    height: 140px;
+    background: url(../images/slid.png)no-repeat;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+}
+.port1_2 .po5 .lio a:hover .poBg{
+    display:block;
+}
+.port1_2 .po5 .lio a p{
+    margin: 40px;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.port1_2 .po5 .lio a img{
+    padding: 15px 0;
+    width: 130px;
+    height: 140px;
+}
+
+#section3 .port .port1_3{
+    width: 510px;
+}
+.port1_3 .po6{
+     background: #b2c8df;
+     width: 170px;
+     height: 170px;
+     float: right;
+}
+.port1_3 .po6 .lio{}
+.port1_3 .po6 .lio a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+.port1_3 .po6 .lio a:hover p{
+    display: block;
+}
+.port1_3 .po6 .lio a .poBg{
+    width: 140px;
+    height: 140px;
+    background: url(../images/slid.png)no-repeat;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+}
+.port1_3 .po6 .lio a:hover .poBg{
+    display:block;
+}
+.port1_3 .po6 .lio a p{
+    margin: 40px;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.port1_3 .po6 .lio a img{
+    padding: 15px 0;
+     width: 120px;
+    height: 140px;
+}
+
+
+
+.port1_3 .po7{
+    background: #d1f4ab;
+    width: 170px;
+    height: 170px;
+    float: right;
+}
+.port1_3 .po7 .lio{}
+.port1_3 .po7 .lio a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+.port1_3 .po7 .lio a:hover p{
+    display: block;
+}
+.port1_3 .po7 .lio a .poBg{
+    width: 140px;
+    height: 140px;
+    background: url(../images/slid.png)no-repeat;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+}
+.port1_3 .po7 .lio a:hover .poBg{
+    display:block;
+}
+.port1_3 .po7 .lio a p{
+    margin: 40px;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.port1_3 .po7 .lio a img{
+    padding: 15px 0;
+     width: 120px;
+    height: 140px;
+}
+
+
+#section4{
+    background: url(../images/gall_img.png)no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+#section4 h1{
+    text-align: center;
+    color: #66e0b0;
+    font-size: 50px;
+    font-family:'Nanum Myeongjo';
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+#section4 .gBox{
+   
+}
+#section4 .gBox .gBox1_1{
+    padding-bottom: 50px;
+    height: 200px;
+}
+#section4 .gBox .gBox1_2{
+    float: left;
+    height: 200px;
+}
+.gBox .gabox1{
+    float: left;
+    padding-left: 175px;
+}
+.gBox .gabox1 a{
+    display: block;
+   height: 200px;
+}
+.gBox .gabox1 a img{
+    width: 250px;
+    height: 200px;
+}
+
+.gBox .gabox2{
+    float: left;
+    padding-left: 50px;
+}
+.gBox .gabox2 a{
+    display: block;
+   height: 200px;
+}
+.gBox .gabox2 a img{
+      width: 250px;
+    height: 200px;
+}
+
+.gBox .gabox3{
+    width: 250px;
+    float: left;
+    padding-left: 50px;
+}
+.gBox .gabox3 a{
+    display: block;
+    height: 200px;
+}
+.gBox .gabox3 a img{
+    width: 250px;
+    height: 200px;
+}
+
+.gBox .gabox4{
+    float: left;
+    padding-left: 175px;
+}
+.gBox .gabox4 a{
+    display: block;
+    height: 200px;
+}
+.gBox .gabox4 a img{
+    width: 250px;
+    height: 200px;
+}
+
+.gBox .gabox5{
+    float: left;
+    padding-left: 50px;
+}
+.gBox .gabox5 a{
+    display: block;
+    height: 200px;
+}
+.gBox .gabox5 a img{
+     width: 250px;
+    height: 200px;
+}
+
+.gBox .gabox6{
+    float: left;
+    padding-left: 50px;
+}
+.gBox .gabox6 a{
+    display: block;
+    height: 200px;
+}
+.gBox .gabox6 a img{
+    width: 250px;
+    height: 200px;
+}
+
+#footer{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    
+}
+#footer .footerIn{
+    background: url(../images/footer.png)no-repeat;
+    padding: 20px 0;
+    text-align: center;
+    height: 60px;
+}
+.footerIn .left{
+   display: inline-block;
+}
+.footerIn .left .icon{
+   position: absolute;
+    
+}
+.footerIn .left .icon img{
+    width: 30px;
+    height: 30px;
+}
+.footerIn .left p{
+   margin-left: 40px;
+    padding: 0 15px;
+}
+.footerIn .right{
+   display: inline-block;
+}
+.footerIn .right .icon{
+    position: absolute;
+}
+.footerIn .right .icon img{
+    width: 30px;
+    height: 30px;
+}
+.footerIn .right p{
+    margin-left: 40px;
+    padding: 0 15px;
+}
+.footerIn p{
+    color: #fff;
+    padding: 15px 0;
+
+}
+.footerIn .topbtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.footerIn .topbtn a{ }
+.footerIn .topbtn a img{
+    width: 40px;
+    height: 40px;
+}
+
+#fp-nav ul li:first-child a span{
+    background:#ff6699;
+}
+#fp-nav ul li:nth-child(2) a span{
+    background: #cc66cc;
+}
+#fp-nav ul li:nth-child(3) a span{
+    background: #9c9dcd;
+}
+#fp-nav ul li:nth-child(4) a span{
+    background: #689dfc;
+}
+#fp-nav ul li:last-child a span{
+    background: #6fe8bc;
+}
+.sidenavM{
+    display: none;
+}
+.panelM{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*반응형구조*/
+@media screen and (max-width:760px){
+    body{
+        min-width: auto;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .inner{
+        width: auto;
+    }
+    .w100pM{
+        width:100%;
+    }
+    .panelM{
+        display: block;
+    }
+    .sidenavM {
+        display: block;
+        height: calc(100% - 100px);
+        width: 0;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right:0;
+        background:url(../images/menu_bg.png);
+        background-size:100%;
+        background-position:center center;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .sidenavM a {
+        width: 100%;
+        padding: 8px 8px 10px 0px;
+        text-decoration: none;
+        font-size: 40px;
+        color: #f1f1f1;
+        display: block;
+        transition: 0.3s;
+        text-align:center;
+        font-family:'Nanum Myeongjo';
+        font-weight:bold;
+    }
+    .headerTop .panelM{
+        width: 40px;
+        height: 40px;
+        float: right;
+    }
+    .headerTop .panelM a{
+        display: block;
+        height: 40px;
+    }
+    .headerTop .panelM a img{
+        width: 40px;
+        height: 40px;
+        padding: 5px 0;
+    }
+    .panel{
+        display: none;
+    }
+    
+    .sidenav {
+        display: none;
+    }
+    .menuSns li{
+        display:inline-block;
+        margin:0 5px;
+    }
+    .menuSns li a img{
+        width: 60px;
+        height: 60px;
+         
+    }
+    .menuSns a{
+        width:auto;
+        padding:0;
+        display:inline-block;
+       
+    }
+
+    .sidenav .menuSns{
+        width: 1200px;
+        text-align:center;
+        font-size:0;
+    }
+
+
+    .sidenav a:hover {
+        color: #66e0b0;
+    }
+
+    .sidenavM .closebtn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 36px;
+        text-align: right;
+        width: 30px;
+        height: 30px;
+    }
+    .sidenavM .closebtn img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+
+
+    #header{
+        display: block;
+        position: fixed;
+        top:0;
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 1;
+    }
+    .headerBg
+    .headerTop{
+        position: relative;
+        height: 50px;
+    }
+    .headerTop h1{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+    }
+    .headerTop h1 img{
+        width: 40px;
+        height: 40px;
+    }
+    .headerTop .panel{
+        width: 30px;
+        height: 30px;
+        float: right;
+    }
+    .headerTop .panel a{
+        display: block;
+        height: 30px;
+    }
+    .headerTop .panel a img{
+        width: 35px;
+    height: 35px;
+    padding: 0;
+    }
+    
+
+
+
+    #section0{
+        font-family:'Nanum Myeongjo';
+        font-size:70px;
+        font-weight:bold;
+        text-align:center;
+        color: #fff;
+        background:url(../images/Mimages/Mmain_bg.png)no-repeat;
+        background-size: cover;
+    }
+    .mainText{}
+
+    #section1{
+
+        background:#c8efd0;
+    }
+    #section1 h1{
+       padding-top: 15px;
+        font-size: 30px;
+
+    }
+    #section1 .box1{
+
+        width:100%;
+        margin-bottom:15px;
+        text-align: center;
+
+    }
+    #section1 .box1 img{
+        width: 50px;
+        height: 150px;
+    }
+    #section1 .box1 p{
+        font-family: 'NanumBarunpen';
+        display: inline-block;
+        text-align: left;
+        font-size: 18px;
+    }
+    #section1 .box1 p em{
+        font-style: normal;
+        font-size: 30px;
+    }
+
+
+    #section1 .box2{}
+    #section1 .box2 p{
+        width: 100%;
+         text-align: center;
+        font-size: 20px;
+    }
+    #section1 .box2 p em{
+        font-style: normal;
+        font-size: 25px;
+    }
+    #section1 .box2 p span{
+       font-family: 'NanumBarunpen';
+        font-size: 30px;
+        font-weight:bold;
+    }
+
+
+
+    #section2{
+
+    }
+    #section2 h1{
+        padding-top: 15px;
+        font-size: 30px;
+        z-index: 10;
+    }
+    #section2 h2{}
+    #section2 .box1{
+       background: url(../images/Mimages/skllll.png)no-repeat;
+        background-size: cover;
+        height: 150px;
+    }
+    #section2 .box1 img{
+       display: none;
+    }
+    #section2 .fix{
+        position: relative;
+    }
+    #section2 .box2{
+        background: #b2dfd0;
+        height: auto; 
+    }
+    #section2 .box2_1{
+        display: inline-block;
+        width:calc(50% - 200px);
+        margin-left:30px;
+        padding: 20px 0;
+    }
+    #section2 .box2_1 .box2_1_1{
+
+
+    }
+    #section2 .box2_1 img{
+        display: inline-block;
+        margin: 5px;
+        width: 35px;
+    }
+    #section2 .box2_1 .box2_1_1 .bar{
+        width:150px;
+        height: 15px;
+        border: 1px solid #fff;
+        margin-top:0px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin-left: -5px;
+    }
+    #section2 .box2_1 .box2_1_2 .bar{
+        width:150px;
+        height: 15px;
+        border: 1px solid #fff;
+        margin-top:0px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin-left: -5px;
+    }
+    #section2 .box2_1 .box2_1_3 .bar{
+        width:150px;
+        height: 15px;
+        border: 1px solid #fff;
+        margin-top:0px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin-left: -5px;
+    }
+    #section2 .box2_1 .box2_1_1 .bar .colorBar{
+        width:140px;
+        background: #fff;
+        height: 100%;
+    }
+    #section2 .box2_1 .box2_1_2 .bar .colorBar{
+        width:140px;
+        background: #fff;
+        height: 100%;
+    }
+    #section2 .box2_1 .box2_1_3 .bar .colorBar{
+        width:120px;
+        background: #fff;
+        height: 100%;
+    }
+
+    #section2 .box2_1 .box2_1_1 .bar .colorBar{}
+    #section2 .box2_1 .bar p{
+        font-size: 11px;
+        position: absolute;
+        top:-2px;
+        right:5px;
+    }
+
+
+    #section2 .box2_2{
+        display: inline-block;
+        width: 50%;
+        float: right;
+        text-align: center;
+        padding: 20px 0;
+    }
+    #section2 .box2_2 h2{
+        font-family: 'NanumBarunpen';
+        font-size: 18px;
+        font-weight:bold;
+        padding: 10px 0;
+    }
+    #section2 .box2_2 .key{
+        text-align: center;
+        background: #fff;
+        width: 155px;
+        margin: 0 auto;
+
+    }
+
+    #section2 .box2_2 .key p{
+       font-family: 'NanumBarunpen';
+       font-size: 18px; 
+       padding: 5px 0;
+    }
+    #section2 .box2_2 .key p.text1{
+        text-align: left;
+        margin-left: 20px;
+        position: absolute;
+    }
+    #section2 .box2_2 .key p.text2{
+        text-align: right;
+        margin-right: 20px;
+    }
+    #section2 .box2_2 .key p.text3{}
+    #section2 .box2_2 .key p.text4{
+        text-align: left;
+        margin-left: 30px;
+        position: absolute;
+    }
+    #section2 .box2_2 .key p.text5{
+        text-align: right;
+        margin-right: 40px;
+    }
+    #section2 .box2_2 .key p.text6{
+        text-align: right;
+        margin-right: 20px;
+    }
+    #section2 .box2_2 .key p.text7{
+        text-align: left;
+        margin-left: 30px;
+    }
+
+
+
+
+
+    #section3{
+        background: url(../images/Mimages/poto_bg.png)no-repeat;
+        background-size: cover;
+        background-position: center right;
+    }
+    #section3 h1{
+       padding-top: 15px;
+        font-size: 30px;
+    }
+    #section3 .port{
+        text-align: center;
+        width: 270px;
+        transform: rotate(-45deg);
+        padding-left: 80px;
+
+    }
+    #section3 .port .port1_1{
+        width: 270px;
+    }
+
+    .port1_1 .po1{
+        background: #aef5f1;
+        width: 90px;
+        height: 100px;
+        float: left;
+    }
+    .port1_1 .po1 .lio{}
+    .port1_1 .po1 .lio a{
+        display: block;
+         width: 90px;
+        height: 100px;
+        position: absolute;
+    }
+    .port1_1 .po1 .lio a img{
+        padding: 10px 0;
+        width: 70px;
+        height: 80px;
+
+    }
+    .port1_1 .po1 .lio a:hover p{
+         display: none;
+    }
+
+    .port1_1 .po1 .lio a:hover .poBg{
+         display: none;
+    }
+    .port1_1 .po1 .lio a p{
+        margin: 40px;
+        color: #000;
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+
+    .port1_1 .po2{
+        background: #58e1b3;
+        width: 90px;
+        height: 100px;
+        float: left;
+    }
+    .port1_1 .po2 .lio{}
+    .port1_1 .po2 .lio a{
+        display: block;
+        width: 90px;
+        height: 100px;
+        position: absolute;
+    }
+    .port1_1 .po2 .lio a:hover p{
+         display: none;
+    }
+
+
+    .port1_1 .po2 .lio a:hover .poBg{
+         display: none;
+    }
+    .port1_1 .po2 .lio a p{
+        margin: 40px;
+        color: #000;
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+    .port1_1 .po2 .lio a img{
+        padding: 10px 0;
+        width: 70px;
+        height: 80px;
+    }
+
+
+    #section3 .port .port1_2{
+        width: 270px;
+    }
+    .port1_2 .po3{
+        background: #ace6f5;
+        width: 90px;
+        height: 100px;
+        float: left;
+    }
+    .port1_2 .po3 a{
+        display: block;
+    }
+    .port1_2 .po3 .lio a{  
+        display: block;
+         width: 90px;
+        height: 100px;
+        position: absolute;
+    }
+    .port1_2 .po3 .lio a:hover .poBg{
+        width: 140px;
+        height: 140px;
+        background: url(../images/slid.png)no-repeat;
+        margin-left: 15px;
+        margin-top: 15px;
+        display: none;
+        position: absolute;
+    }
+
+    .port1_2 .po3 .lio a p{
+        margin: 40px;
+        color: #000;
+        display: none;
+        position:absolute;
+    }
+
+    .port1_2 .po3 .lio a:hover p{
+         display: none;
+    }
+    .port1_2 .po4{
+        background: #f9f6a2;
+        width: 90px;
+        height: 100px;
+        float: left;
+    }
+    .port1_2 .po4 .lio{}
+    .port1_2 .po4 .lio a{
+        display: block;
+         width: 90px;
+        height: 100px;
+        position: absolute;
+    }
+    .port1_2 .po4 .lio a:hover p{
+         display: none;
+    }
+
+    .port1_2 .po4 .lio a:hover .poBg{
+         display: none;
+    }
+    .port1_2 .po4 .lio a p{
+        margin: 40px;
+        color: #000;
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+    .port1_2 .po4 .lio a img{
+        padding: 10px 0;
+         width: 70px;
+        height: 80px;
+    }
+
+    .port1_2 .po5{
+       background: #dcb2df;
+       width: 90px;
+        height: 100px;
+        float: left;
+    }
+    .port1_2 .po5 .lio{}
+    .port1_2 .po5 .lio a{
+        display: block;
+        width: 90px;
+        height: 100px;
+        position: absolute;
+    }
+    .port1_2 .po5 .lio a:hover p{
+         display: none;
+    }
+
+    .port1_2 .po5 .lio a:hover .poBg{
+         display: none;
+    }
+    .port1_2 .po5 .lio a p{
+        margin: 40px;
+        color: #000;
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+    .port1_2 .po5 .lio a img{
+        padding: 10px 0;
+        width: 70px;
+        height: 80px;
+    }
+
+    #section3 .port .port1_3{
+        width: 270px;
+    }
+    .port1_3 .po6{
+         background: #b2c8df;
+        width: 90px;
+        height: 100px;
+         float: right;
+    }
+    .port1_3 .po6 .lio{}
+    .port1_3 .po6 .lio a{
+        display: block;
+         width: 90px;
+        height: 100px;
+        position: absolute;
+    }
+    .port1_3 .po6 .lio a p{
+        margin: 40px;
+        color: #000;
+        display: none;
+        position:absolute;
+    }
+    .port1_3 .po6 .lio a:hover .poBg{
+        width: 140px;
+        height: 140px;
+        background: url(../images/slid.png)no-repeat;
+        margin-left: 15px;
+        margin-top: 15px;
+        display: none;
+        position: absolute;
+    }
+    .port1_3 .po6 .lio a:hover p{
+         display: none;
+    }
+
+
+    .port1_3 .po7{
+        background: #d1f4ab;
+         width: 90px;
+        height: 100px;
+        float: right;
+    }
+    .port1_3 .po7 .lio{}
+    .port1_3 .po7 .lio a{
+        display: block;
+         width: 90px;
+        height: 100px;
+        position: absolute;
+    }
+    .port1_3 .po7 .lio a p{
+        margin: 40px;
+        color: #000;
+        display: none;
+        position:absolute;
+    }
+    .port1_3 .po7 .lio a:hover .poBg{
+         width: 140px;
+        height: 140px;
+        background: url(../images/slid.png)no-repeat;
+        margin-left: 15px;
+        margin-top: 15px;
+         display: none;
+        position: absolute;
+    }
+    .port1_3 .po7 .lio a:hover p{
+        display: none;
+    }
+    .port1_3 .po7 .lio a img{
+        padding: 15px 0;
+        width: 70px;
+        height: 70px;
+       }
+    
+    .port1_3 .po6 .lio a img{
+        padding: 15px 0;
+         width: 55px;
+        height: 70px;
+       }
+
+    .port1_2 .po3 .lio a img{
+        padding: 15px 0;
+         width: 55px;
+        height: 70px;
+       }
+
+    
+    
+    
+
+    #section4{
+        background: url(../images/Mimages/gsall.png)no-repeat;
+        background-size: cover;
+        position: absolute;
+    }
+    #section4 h1{
+         padding-top: 15px;
+        font-size: 30px;
+    }
+
+    #section4 .gBox{
+
+    }
+    #section4 .gBox .gBox1_1{
+        padding-bottom: 0;
+        height: 0;
+    }
+    #section4 .gBox .gBox1_2{
+        float: left;
+        height: 90px;
+    }
+    .gBox .gabox1{
+        float: left;
+        padding-left: 5px;
+    }
+    .gBox .gabox1 a{
+        display: block;
+       height: 90px;
+    }
+    .gBox .gabox1 a img{
+        width: 130px;
+        height: 90px;
+    }
+
+    .gBox .gabox2{
+        float: left;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .gBox .gabox2 a{
+        display: block;
+       height: 90px;
+    }
+    .gBox .gabox2 a img{
+          width: 130px;
+        height: 90px;
+    }
+
+    .gBox .gabox3{
+        width: 120px;
+        float: left;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .gBox .gabox3 a{
+        display: block;
+        height: 90px;
+    }
+    .gBox .gabox3 a img{
+        width: 130px;
+        height: 90px;
+    }
+
+    .gBox .gabox4{
+        float: left;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .gBox .gabox4 a{
+        display: block;
+        height: 90px;
+    }
+    .gBox .gabox4 a img{
+        width: 130px;
+        height: 90px;
+    }
+
+    .gBox .gabox5{
+        float: left;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .gBox .gabox5 a{
+        display: block;
+        height: 90px;
+    }
+    .gBox .gabox5 a img{
+       width: 130px;
+        height: 90px;
+    }
+
+    .gBox .gabox6{
+        width: 120px;
+        float: left;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .gBox .gabox6 a{
+        display: block;
+        height: 90px;
+    }
+    .gBox .gabox6 a img{
+        width: 130px;
+        height: 90px;
+    }
+
+    #footer{
+        width:100%;
+        position: fixed;
+        bottom:0;
+
+    }
+    #footer .footerIn{
+        background: url(../images/footer.png)no-repeat;
+        padding: 20px 0;
+        text-align: center;
+        height: 60px;
+    }
+    .footerIn .left{
+       display: inline-block;
+    }
+    .footerIn .left .icon{
+       position: absolute;
+
+    }
+    .footerIn .left .icon img{
+        width: 25px;
+        height: 25px;
+    }
+    .footerIn .left p{
+       margin-left: 40px;
+        padding: 0 15px;
+    }
+    .footerIn .right{
+       display: inline-block;
+    }
+    .footerIn .right .icon{
+        position: absolute;
+    }
+    .footerIn .right .icon img{
+        width: 25px;
+        height: 25px;
+    }
+    .footerIn .right p{
+        margin-left: 40px;
+        padding: 0 15px;
+    }
+    .footerIn p{
+        color: #fff;
+        padding: 5px 0;
+
+    }
+    .footerIn .topbtn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .footerIn .topbtn a{ }
+    .footerIn .topbtn a img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+        .sidenav {
+        height: calc(100% - 100px);
+        width: 0;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right: 50%;
+        margin-right:-600px;
+        background:url(../images/menu_bg.png);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .sidenav a {
+        width: 760px;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        color: #f1f1f1;
+        display: block;
+        transition: 0.3s;
+        text-align:center;
+        font-family:'Nanum Myeongjo';
+        font-weight:bold;
+    }
+    .menuSns li{
+        display:inline-block;
+        margin:0 5px;
+       
+    }
+    .menuSns li a img{
+        width: 40px;
+        height: 40px;
+       
+    }
+    .sidenavM .menuSns{
+        text-align: center;
+    }
+    .menuSns a{
+        width:auto;
+        padding:0;
+        display:inline-block;
+    }
+
+    .sidenav .menuSns{
+        width: 760px;
+        text-align:center;
+        font-size:0;
+    }
+
+
+    .sidenav a:hover {
+        color: #66e0b0;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 36px;
+        text-align: right;
+        width: 30px;
+        height: 30px;
+    }
+    .sidenav .closebtn img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
